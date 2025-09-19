@@ -56,12 +56,13 @@ This project is built to run **fully locally and with free APIs** --- no OpenAI 
 
 1. Clone this repository:
 
-    ```bash
+```bash
 
 git clone https://github.com/your-username/mcp-local-travel-planner.git
 
 cd mcp-local-travel-planner
-    ```
+
+```
 
 2. Install dependencies:
 
@@ -88,17 +89,17 @@ Enter your Firecrawl and ORS API keys in the sidebar.
 
 Fill in trip details:
 
-Destination (e.g., Barcelona)
+- Destination (e.g., Barcelona)
 
-Number of Days
+- Number of Days
 
-Budget (USD)
+- Budget (USD)
 
-Preferences (food, history, nightlife, etc.)
+- Preferences (food, history, nightlife, etc.)
 
 👉 The app will generate a complete travel itinerary with distances, timings, and tips.
 
-🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 "Found 0 properties/attractions" → Website may have blocking, try a different URL or city.
 
@@ -106,38 +107,42 @@ ORS errors → Check your ORS API key is valid and enabled.
 
 Ollama not found → Make sure Ollama is running before starting Streamlit.
 
-📂 Project Structure
+## 📂 Project Structure
 
+```bash
 ├── app.py # Main Streamlit app
 
 ├── requirements.txt # Python dependencies
 
 └── README.md # Documentation
+```
 
-🧠 How It Works
+## 🧠 How It Works
 
-Ollama: Local LLM used for reasoning and itinerary generation
+- Ollama: Local LLM used for reasoning and itinerary generation
 
-Firecrawl: Crawls travel pages to extract content (attractions, descriptions)
+- Firecrawl: Crawls travel pages to extract content (attractions, descriptions)
 
-ORS: Calculates exact travel times & distances between itinerary stops
+- ORS: Calculates exact travel times & distances between itinerary stops
 
-Streamlit: Provides a clean UI
+- Streamlit: Provides a clean UI
 
-iCalendar: Exports itinerary to .ics format
+- iCalendar: Exports itinerary to .ics format
 
-📌 Example Input
+## 📌 Example Input
 
-Destination: Tokyo
+- Destination: Tokyo
 
-Days: 5
+- Days: 5
 
-Budget: $1500
+- Budget: $1500
 
-Preferences: Sushi, anime culture, temples, shopping
+- Preferences: Sushi, anime culture, temples, shopping
 
-👉 Output: A 5-day Tokyo itinerary with real attraction details, metro travel times, food stops, cultural visits, and total budget estimation.
+## 👉 Output
 
-📢 Author
+A 5-day Tokyo itinerary with real attraction details, metro travel times, food stops, cultural visits, and total budget estimation.
+
+## 📢 Author
 
 Built with ❤️ by Azar -- exploring AI agents for travel & real-world applications.
