@@ -4,6 +4,13 @@ A **Streamlit-based AI travel planner** that generates **detailed, personalized 
 
 This project is built to run **fully locally and with free APIs** --- no OpenAI or paid services required.
 
+## Demo Screenshot
+
+![Screenshot1](1.png)
+![Screenshot2](2.png)
+![Screenshot3](3.png)
+![Screenshot4](4.png)
+
 ---
 
 ## ✨ Features
